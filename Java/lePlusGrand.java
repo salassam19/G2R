@@ -19,32 +19,18 @@ public class lePlusGrand {
 
 		// indice affichage : System.out.println(nb1+">"+nb2+">"+nb3);
 		if(nb1 > nb2 && nb2 > nb3)
-		{
 			System.out.println(nb1+">"+nb2+">"+nb3);
-		}
 		else if(nb1 > nb3 && nb3 > nb2)
-		{
 			System.out.println(nb1+">"+nb3+">"+nb2);
-		}
 		else if(nb2 > nb1 && nb1 > nb3)
-		{
 			System.out.println(nb2+">"+nb1+">"+nb3);
-		}
 		else if(nb2 > nb3 && nb3 > nb1)
-		{
 			System.out.println(nb2+">"+nb3+">"+nb1);
-		}
 		else if(nb3 > nb1 && nb1 > nb2)
-		{
 			System.out.println(nb3+">"+nb1+">"+nb2);
-		}
 		else if(nb3 > nb2 && nb2 > nb1)
-		{
 			System.out.println(nb3+">"+nb2+">"+nb1);
-		}
 		else
-		{
 			System.out.println("Error");
-		}
 	}
 }
