@@ -1,2 +1,2 @@
 # G2R
-A voir
+ICI les programme de la formation G2R
