@@ -7,17 +7,11 @@ public class lePlusGrand {
 		int nb3;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("entrez le premier nombre a comparer");
-		nb1 = sc.nextInt();// premiere lecture
+		nb1 = sc.nextInt();
 		System.out.println("entrez le deuxieme nombre a comparer");
-		nb2 = sc.nextInt();// seconde lecture
+		nb2 = sc.nextInt();
 		System.out.println("entrez le troisieme nombre a comparer");
-		nb3 = sc.nextInt();// troisieme lecture
-		
-		// afficher les trois nombres dans l'ordre Decroissant
-		// (plus grand au plus petit) on part du principale qu'on
-		// ne gere pas les egalites
-
-		// indice affichage : System.out.println(nb1+">"+nb2+">"+nb3);
+		nb3 = sc.nextInt();
 		if(nb1 > nb2 && nb2 > nb3)
 			System.out.println(nb1+">"+nb2+">"+nb3);
 		else if(nb1 > nb3 && nb3 > nb2)
